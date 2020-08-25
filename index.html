@@ -37,12 +37,38 @@
             <input type="text"  class="form-control" id="new-email2">
           </div>
           <div class="form-group">
-            <label for="new-address1">Home Address</label>
-            <input type="text"  class="form-control" id="new-address1">
+            <h2>Home Address</h2>
+            <label for="new-streetAddress1">Street Address</label>
+            <input type="text"  class="form-control" id="new-streetAddress1">
           </div>
           <div class="form-group">
-            <label for="new-address2">Work Address</label>
-            <input type="text"  class="form-control" id="new-address2">
+            <label for="new-city1">City</label>
+            <input type="text"  class="form-control" id="new-city1">
+          </div>
+          <div class="form-group">
+            <label for="new-state1">State</label>
+            <input type="text"  class="form-control" id="new-state1">
+          </div>
+          <div class="form-group">
+            <label for="new-zip1">Zip Code</label>
+            <input type="text"  class="form-control" id="new-zip1">
+          </div>
+          <div class="form-group">
+            <h2>Work Address</h2>
+            <label for="new-streetAddress2">Street Address</label>
+            <input type="text"  class="form-control" id="new-streetAddress2">
+          </div>
+          <div class="form-group">
+            <label for="new-city2">City</label>
+            <input type="text"  class="form-control" id="new-city2">
+          </div>
+          <div class="form-group">
+            <label for="new-state2">State</label>
+            <input type="text"  class="form-control" id="new-state2">
+          </div>
+          <div class="form-group">
+            <label for="new-zip2">Zip Code</label>
+            <input type="text"  class="form-control" id="new-zip2">
           </div>
           <button type="submit" class="btn-primary">Add</button>
         </form>
@@ -56,10 +82,30 @@
           <p>First Name: <span class="first-name"></span></p>
           <p>Last Name: <span class="last-name"></span></p>
           <p>Phone Number: <span class="phone-number"></span></p>
-          <p>Personal Email: <span class="email1"></span></p>
-          <p>Work Email: <span class="email2"></span></p>
-          <p>Home Address: <span class="address1"></span></p>
-          <p>Work Address: <span class="address2"></span></p>
+          <div class="pEmail">
+            <p>Personal Email: <span class="email1"></span></p>
+          </div>
+          <div class="wEmail">
+            <p>Work Email: <span class="email2"></span></p>
+          </div>
+          <div class="homeAddress">
+            <p>Home Address:
+              <ul>
+                <span class="streetAddress1"></span><br>
+                <span class="city1"></span> , <span class="state1"></span><br>
+                <span class="zip1"></span>
+              </ul>  
+            </p>
+          </div>  
+          <div class="workAddress">
+            <p>Work Address:
+              <ul>
+                <span class="streetAddress2"></span><br>
+                <span class="city2"></span> , <span class="state2"></span><br>
+                <span class="zip2"></span>
+              </ul>
+            </p>
+          </div>
           <div id="buttons">
           </div>
         </div>

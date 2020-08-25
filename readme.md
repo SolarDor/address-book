@@ -6,20 +6,20 @@
 
 # Description
 
-_This is a simple webpage project to practice using constructors and prototypes to populate an address book._
+_This is a simple webpage project to practice using constructors and prototypes to populate and display an address book._
 
 ## Specs for Program Behaviors
-1. _When user clicks destination, results will populate information from constructor and display them._ 
-### Input: Jacmel
-### Output: photo of bassin-blue, 2016, "City of Light".
+1. **_When user clicks submit on form, results will populate information to Contacts in Address Book, create an ID, and gather information for display._**
+### Input: First Name: Cameron, Last Name: Will, Phone Number: 831-332-4857, Personal Email: chasm316@aol.com, Work Email: solardor@icloud.com, _Home_ Street Address: 3384 Kenwood Dr, City: Fortuna, State: CA, Zip Code: 95540.
+### Output: Listen including Cameron Will
 
-2. **_When user clicks destination, results will populate information from constructor and display them.**
- ### Input: Dubai
-### Output: photo of Burj Khalifa, 2015, "Make it Happen".
+2. **_When user clicks contact from list, contact information is displayed.**
+ ### Input: Click "Cameron Will"
+### Output: First Name: Cameron, Last Name: Will, Phone Number: 831-332-4857, Personal Email: chasm316@aol.com, Work Email: solardor@icloud.com, _Home_ Street Address: 3384 Kenwood Dr, City: Fortuna, State: CA, Zip Code: 95540.
 
-3. _When user clicks destination, results will populate information from constructor and display them._
-### Input: Paris
-### Output: photo of Eiffel Tower, 2017, "Fluctuat nec mergitur".
+3. **_When user inputs nothing in fields "Personal Email," "Work Email," "Home Address," or "Work Address," the field will not be displayed.**
+### Input: Personal Email: " "
+### Output: display: none
 
 
 ## Setup/Installation Requirements
@@ -32,7 +32,7 @@ _This is a simple webpage project to practice using constructors and prototypes 
 
 ## Known Bugs
 
-_No known bugs thus far._
+_unentered fields not appropriately hiding._
 
 ## Technologies Used
 
